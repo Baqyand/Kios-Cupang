@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Kios Cupang</string>
+    <string name="Detail">Detail</string>
+    <string name="Nama">Nama Cupang</string>
+    <string name="Harga">Harga</string>
+    <string name="listmode">ListMode</string>
+    <string name="gridmode">AboutMe</string>
+    <string name="cardviewmode">CardViewMode</string>
+    <string name="spesifikasi">Spesifikasi</string>
+    <string name="jenis_cupang">Jenis Cupang</string>
+    <string name="stok_hanya_sedikit">Stok Hanya Sedikit</string>
+    <string name="ready">Ready</string>
+    <string name="stok">Stok</string>
+    <string name="bayand_aquarium">Bayand Aquarium</string>
+    <string name="penjual">Penjual</string>
+    <string name="beli">Beli</string>
+    <string name="kios_cupang">Kios Cupang</string>
+    <string name="member_of">Member of:</string>
+    <string name="qyanjadi_gmail_com">qyanjadi@gmail.com</string>
+    <string name="bama_qyandija_deandra">Bama Qyandija Deandra</string>
+    <string name="cari">Cari</string>
+</resources>

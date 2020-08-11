@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:background="#98898B"
+    >
+
+    <TextView
+        android:id="@+id/post_cupang"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:visibility="gone"
+        />
+ <RelativeLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:padding="15dp"
+     android:elevation="15dp"
+     android:background="@drawable/shadow"
+     >
+
+     <ImageView
+         android:id="@+id/img_ikan_cupang"
+         android:layout_width="97dp"
+         android:layout_height="85dp"
+         android:layout_marginEnd="1dp"
+         android:layout_marginRight="1dp"
+         android:scaleType="fitXY"
+         tools:src="@android:color/holo_blue_bright" />
+
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="24dp"
+        android:layout_toEndOf="@id/img_ikan_cupang"
+        android:layout_toRightOf="@id/img_ikan_cupang"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/img_ikan_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:text="@string/Nama" />
+        <TextView
+            android:id="@+id/img_harga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:text="@string/Harga" />
+
+        <TextView
+            android:id="@+id/img_ikan_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="2"
+            tools:text="@string/Detail" />
+
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>
